@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebfc683e3e90abd44861cd84983f0a6c, type: 3}
+  m_Name: New Global AI Variables
+  m_EditorClassIdentifier: 
+  VERBOSE: 0
+  AimingSpeed: 0
+  JumpSpeed: 0
+  FallMultiplier: 0
+  MaxFallSpeed: 0
+  MaxDiveSpeed: 0
+  AirMovementSpeed: 0
+  UmbrellaGravity: 0
+  UmbrellaFallingSpeed: 0
+  SpeedDecay: 0
+  ExtraDivingSpeed: 0
+  SpeedDecayTimer: 0
+  Gravity: 0
+  PlayerMaxHealth: 0
+  UmbrellaMaxHealth: 0
+  RespawnTime: 0
+  MoveSpeed: 0
+  FocusAreaRange: 0
+  FocusAreaRadius: 0
+  SearchDuration: 0
+  SearchingTurnSpeed: 0

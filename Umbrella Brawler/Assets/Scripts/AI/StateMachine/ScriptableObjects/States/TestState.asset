@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80dbc1b62b7a5244db7db0bdf2f5f272, type: 3}
+  m_Name: TestState
+  m_EditorClassIdentifier: 
+  VERBOSE: 0
+  Actions:
+  - {fileID: 11400000, guid: 0301922145239e842ac7470203213477, type: 2}
+  - {fileID: 11400000, guid: f9d946ba25dd8e84d9642edc74a242fb, type: 2}
+  Transitions:
+  - VERBOSE: 0
+    disableTransition: 0
+    Decision: {fileID: 11400000, guid: ebe5a96dcfa78e94ba4a9a1cccee80ca, type: 2}
+    trueState: {fileID: 11400000, guid: d5e601695fcdb2c449c63a6369a3ba83, type: 2}
+    falseState: {fileID: 11400000, guid: d5e601695fcdb2c449c63a6369a3ba83, type: 2}
+  - VERBOSE: 0
+    disableTransition: 0
+    Decision: {fileID: 11400000, guid: 2b5c2b7a143ebaf4b8a032788e8e421c, type: 2}
+    trueState: {fileID: 11400000, guid: eae62f47d3ca76546a1589321245cf6c, type: 2}
+    falseState: {fileID: 11400000, guid: d5e601695fcdb2c449c63a6369a3ba83, type: 2}
+  - VERBOSE: 0
+    disableTransition: 0
+    Decision: {fileID: 11400000, guid: 065eea28a6464e944be4c2e400c78940, type: 2}
+    trueState: {fileID: 11400000, guid: eae62f47d3ca76546a1589321245cf6c, type: 2}
+    falseState: {fileID: 11400000, guid: d5e601695fcdb2c449c63a6369a3ba83, type: 2}
+  SceneFocusAreaColor: {r: 0.76502323, g: 0, b: 1, a: 1}

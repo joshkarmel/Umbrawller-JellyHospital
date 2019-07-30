@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80dbc1b62b7a5244db7db0bdf2f5f272, type: 3}
+  m_Name: CircuitPatrolState
+  m_EditorClassIdentifier: 
+  VERBOSE: 0
+  Actions:
+  - {fileID: 11400000, guid: 190006d4d022507418d4673edf14f583, type: 2}
+  Transitions:
+  - VERBOSE: 0
+    DisableTransition: 0
+    Decision: {fileID: 11400000, guid: 479d5af0c2b769e45a74b9a0959abcc7, type: 2}
+    trueState: {fileID: 11400000, guid: 695aa7db20c53e440b4bab30aa221d37, type: 2}
+    falseState: {fileID: 11400000, guid: d5e601695fcdb2c449c63a6369a3ba83, type: 2}
+  - VERBOSE: 0
+    DisableTransition: 0
+    Decision: {fileID: 11400000, guid: ebe5a96dcfa78e94ba4a9a1cccee80ca, type: 2}
+    trueState: {fileID: 11400000, guid: 7e384c58a001f654987d2743b1ec53ff, type: 2}
+    falseState: {fileID: 11400000, guid: d5e601695fcdb2c449c63a6369a3ba83, type: 2}
+  - VERBOSE: 0
+    DisableTransition: 0
+    Decision: {fileID: 11400000, guid: 4a14514645374a34e95c971947c0b41b, type: 2}
+    trueState: {fileID: 11400000, guid: 6457c6b51994e4541957a23e5e67fc72, type: 2}
+    falseState: {fileID: 11400000, guid: d5e601695fcdb2c449c63a6369a3ba83, type: 2}
+  - VERBOSE: 0
+    DisableTransition: 0
+    Decision: {fileID: 11400000, guid: a2897eaf766660941b969240658cce13, type: 2}
+    trueState: {fileID: 11400000, guid: e22ec5fd5d82f8d4e93a024dbc220992, type: 2}
+    falseState: {fileID: 11400000, guid: d5e601695fcdb2c449c63a6369a3ba83, type: 2}
+  SceneFocusAreaColor: {r: 0.37315297, g: 1, b: 0, a: 1}

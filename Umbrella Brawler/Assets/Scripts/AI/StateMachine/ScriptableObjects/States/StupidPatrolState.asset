@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80dbc1b62b7a5244db7db0bdf2f5f272, type: 3}
+  m_Name: StupidPatrolState
+  m_EditorClassIdentifier: 
+  VERBOSE: 0
+  Actions:
+  - {fileID: 11400000, guid: 09fe457e2b1cb7743b689d8ae8b9c78c, type: 2}
+  Transitions:
+  - VERBOSE: 0
+    Decision: {fileID: 11400000, guid: 8ccc08d9556d22740b02e820418040ea, type: 2}
+    trueState: {fileID: 11400000, guid: 695aa7db20c53e440b4bab30aa221d37, type: 2}
+    falseState: {fileID: 11400000, guid: d5e601695fcdb2c449c63a6369a3ba83, type: 2}
+  SceneFocusAreaColor: {r: 0.28308523, g: 0.8773585, b: 0.09518514, a: 1}

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80dbc1b62b7a5244db7db0bdf2f5f272, type: 3}
+  m_Name: OnGround
+  m_EditorClassIdentifier: 
+  VERBOSE: 0
+  Actions:
+  - {fileID: 11400000, guid: 06f75d4a24df1aa45801ee2dbd67f4d3, type: 2}
+  - {fileID: 11400000, guid: f9d946ba25dd8e84d9642edc74a242fb, type: 2}
+  Transitions:
+  - VERBOSE: 0
+    DisableTransition: 0
+    Decision: {fileID: 0}
+    trueState: {fileID: 0}
+    falseState: {fileID: 0}
+  SceneFocusAreaColor: {r: 0.41509432, g: 0.3378916, b: 0.2721609, a: 1}

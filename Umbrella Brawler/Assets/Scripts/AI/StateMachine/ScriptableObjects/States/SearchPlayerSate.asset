@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80dbc1b62b7a5244db7db0bdf2f5f272, type: 3}
+  m_Name: SearchPlayerSate
+  m_EditorClassIdentifier: 
+  VERBOSE: 0
+  Actions: []
+  Transitions:
+  - VERBOSE: 0
+    Decision: {fileID: 11400000, guid: 479d5af0c2b769e45a74b9a0959abcc7, type: 2}
+    trueState: {fileID: 11400000, guid: 695aa7db20c53e440b4bab30aa221d37, type: 2}
+    falseState: {fileID: 11400000, guid: d5e601695fcdb2c449c63a6369a3ba83, type: 2}
+  SceneFocusAreaColor: {r: 1, g: 0.7847614, b: 0.042452812, a: 1}

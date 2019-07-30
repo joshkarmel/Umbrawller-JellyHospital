@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e33363a9ab50bec41bfc8615e8126ed4, type: 3}
+  m_Name: New Temporary AI Variables
+  m_EditorClassIdentifier: 
+  VERBOSE: 0
+  FocusAreaRange: 100
+  FocusAreaRadius: 1
+  SearchDuration: 4
+  SearchingTurnSpeed: 120
+  StoppingDistance: 2
+  MaxViewDistance: 85
+  fieldOfViewDegrees: 90
+  minPlayerDetectDistance: 10
+  GizmoColor: {r: 0, g: 1, b: 0, a: 1}
+  MaxVelocity: 10
+  MinVelocity: 2
+  Acceleration: 2.92
+  Inertia: 0.9
+  RotaionDamping: 3
+  WaypointStoppingDistance: 2
+  StopDelay: 1
+  LookRotation: 1
+  StopAtWaypoints: 0
+  PursueMaxVelocity: 13.12
+  PursueMinVelocity: 2.3
+  PursueAcceleration: 2.53
+  PursueInertia: 0.9
+  PursueRotaionDamping: 1.91
+  PursueWaypointStoppingDistance: 2
+  PursueStopDelay: 1
+  SecondsLosingSightOfPlayer: 3
+  PursueLookRotation: 1
+  PursueStopAtWaypoints: 0
+  GroundDistanceAvoidance: 1
+  TopDistanceAvoidance: 10
+  UmbrellaOpenDuration: 2.5
+  UpwardForceThreshold: 20
+  WeaponCooldown: 0
+  WeaponRange: 0
